@@ -25,7 +25,7 @@ Go ahead and run the simulation and see what happens!
 </div>
 
 <br>
-P.S. Tell me what you think about it on [twitter](https://twitter.com/intent/tweet?text=My thoughts on {{ page.title }} by @mikesoylu&url={{ site.url + page.url }}){:target="_blank"}!
+P.S. Tell me what you think about it on [twitter](https://twitter.com/intent/tweet?text=My thoughts on {{ page.title }} by @mikesoylu&url={{ site.url }}{{ page.url }}){:target="_blank"}!
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.6/svg.min.js"></script>
 <script>
