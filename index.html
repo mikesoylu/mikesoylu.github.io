@@ -1,34 +1,40 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<header class="wrapper">
+  My name is Mike Soylu.
+  I co-founded <a href="https://www.pisano.co" target="_blank">Pisano</a>
+  and run its <a href="https://www.linkedin.com/in/mikesoylu" target="_blank">marketing</a>.
+  I also <a href="javascript:scroll();">write</a>,
+  <a href="https://twitter.com/mikesoylu" target="_blank">tweet</a>
+  and <a href="https://github.com/mikesoylu" target="_blank">code</a>.
+</header>
 
-  {{ content }}
+<main class="wrapper" aria-label="Content" id="posts">
+  {%- for post in site.posts -%}
+  <div class="post-listing">
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    {%- assign date_format = "%b %-d, %Y" -%}
+    <span class="date">{{ post.date | date: date_format }}</span>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+    <h2>{{ post.title | escape }}</h2>
 
-</div>
+    {{ post.excerpt }}
+
+    {%- if post.excerpt != post.content -%}
+
+    <a class="link" href="{{ post.url | relative_url }}">
+      {{ post.cta | default: "Continue reading →" }}
+    </a>
+
+    {%- endif -%}
+  </div>
+  {%- endfor -%}
+</main>
+
+<script>
+  function scroll() {
+    window.posts.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+</script>

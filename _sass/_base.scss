@@ -29,6 +29,13 @@ body {
 }
 
 
+hr {
+  border-top: 1px solid $grey-color-light;
+  border-bottom: none;
+  margin: $spacing-unit 0;
+}
+
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -46,6 +53,7 @@ ul, ol, dl, figure,
  * `main` element
  */
 main {
+  padding-top: 80px;
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
@@ -106,21 +114,9 @@ a {
   color: $brand-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
   &:hover {
     color: $text-color;
     text-decoration: underline;
-  }
-
-  .social-media-list &:hover {
-    text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
   }
 }
 
@@ -133,8 +129,6 @@ blockquote {
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
 
   > :last-child {
     margin-bottom: 0;
@@ -175,17 +169,19 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
+  box-sizing: border-box;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
@@ -200,27 +196,6 @@ pre {
   content: "";
   display: table;
   clear: both;
-}
-
-
-
-/**
- * Icons
- */
-
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: #{$grey-color};
-    padding-right: 5px;
-    vertical-align: text-top;
-}
-
-.social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
 }
 
 
