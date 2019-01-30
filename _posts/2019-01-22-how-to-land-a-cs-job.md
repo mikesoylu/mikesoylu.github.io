@@ -1,7 +1,11 @@
 ---
 layout: post
 title: How to Land a CS Job fresh out of College
+cta: My 3 tips for students →
 ---
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shared some thoughts with <a href="https://twitter.com/Rasmussen?ref_src=twsrc%5Etfw">@Rasmussen</a> College on how computer science students can land their dream job fresh out of school 👇<a href="https://t.co/OOOfI3g0gg">https://t.co/OOOfI3g0gg</a></p>&mdash; Mike Soylu (@mikesoylu) <a href="https://twitter.com/mikesoylu/status/1087683378231549953?ref_src=twsrc%5Etfw">January 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+I recently shared some tips with Rasmussen College School of Technology on how their computer science students can land their dream job fresh out of college. 
 
+In my experience, great candidates have 3 major points that separate them from the crowd: great portfolios, code navigation and communication skills.
+
+[Read the full article here →](https://www.rasmussen.edu/degrees/technology/blog/computer-science-skills/)

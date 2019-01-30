@@ -36,6 +36,27 @@ hr {
 }
 
 
+label {
+  font-size: $small-font-size;
+}
+
+
+button {
+  border: 1px solid $grey-color-light;
+  padding: ($spacing-unit / 8) ($spacing-unit / 4);
+  font-size: $small-font-size;
+  cursor: pointer;
+  background: white;
+}
+
+button:active {
+  background: $grey-color-light;
+}
+
+button:focus {
+  outline: 0;
+}
+
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
