@@ -8,9 +8,9 @@ The richest one percent owns more than the half of the world's wealth. This stat
 
 The graph below shows the output of the simulation: the wealth of 50 people. Each start off with $100. On every simulation turn, they randomly pair-up and flip a coin. The winner takes $1 from the loser.
 
-If bankruptcy is disabled people with negative wealth get "saved", possibly by the government and are restored to 0. So they can keep participating in the market — toggle this off to see what happens in more unforgiving circumstances 😅
+If bankruptcy is disabled people with negative wealth get *saved*, possibly by the government and are restored to 0. So they can keep participating in the market — toggle this off to see what happens in more unforgiving circumstances 😅
 
-It's meant to model a super simple marketplace but we get some very interesting emergent behaviour out of it.
+Even though this models a super simple marketplace where everyone is unrealisticly *equal*, we get some interesting emergent behaviour out of it. Not unlike the real world.
 
 Go ahead and run the simulation and see what happens!
 

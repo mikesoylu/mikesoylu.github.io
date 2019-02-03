@@ -6,7 +6,7 @@ cta: Do this instead →
 
 Okay I know this sounds crazy but before you dismiss me as a know-it-all millenial who's trying to be provocative and get some buzz, bare with me — there's a method to my madness.
 
-First, for all of this to make sense I need to give you some background and how I came to write this. I'm a founder at an awesome company called Pisano, we help companies become more customer centric — [check us out](https://www.pisano.co).
+First, for all of this to make sense I need to give you some background and how I came to write this. I'm a founder at an awesome company called Pisano, we help companies become more customer centric — [check us out](https://www.pisano.co){:target="_blank"}.
 
 To keep up with all the smart people that we have at the company, I need to learn a lot and about many disparate subjects from marketing(that's my current hustle) to building great culture and many other things. That's why, for the past 4 years I've been reading lots of blog posts.
 
@@ -54,7 +54,7 @@ It requires years of research and work.
 
 ### No conflict of interest 
 
-Books don't have ad revenue and companies don't write books for advertising — well, I guess sometimes [they do](https://www.apple.com/designed-by-apple/).
+Books don't have ad revenue and companies don't write books for advertising — well, I guess sometimes [they do](https://www.apple.com/designed-by-apple/){:target="_blank"}.
 
 So generally speaking, when you get a book about a certain subject you can trust that the author isn't trying to sell you something. And is actually trying to provide value.
 

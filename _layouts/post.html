@@ -10,9 +10,15 @@
 
         <p class="meta">
           <time datetime="{{ page.date | date_to_xmlschema }}">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {%- assign date_format = "%b %-d, %Y" -%}
             {{ page.date | date: date_format }}
           </time>
+
+          {% if page.date != page.last_modified_at %}
+          <small>
+            Updated: {{ page.last_modified_at | date: date_format}}
+          </small>
+          {% endif %}
         </p>
 
         <div class="content">
