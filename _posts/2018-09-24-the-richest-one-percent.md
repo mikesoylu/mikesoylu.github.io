@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Richest One Percent
-cta: See what happens →
+cta: See what happens »
 ---
 
 The richest one percent owns more than the half of the world's wealth. This statistic seemed unintuitive to me. Why isn't wealth more evenly distributed? So I decided to make a simple simulation to see what happens when you unleash a free market 🤓

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Land a CS Job fresh out of College
-cta: My 3 tips for students →
+cta: My 3 tips for students »
 ---
 
 I recently shared some tips with Rasmussen College School of Technology on how their computer science students can land their dream job fresh out of college. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stop Reading Blogs
-cta: Do this instead →
+cta: Do this instead »
 ---
 
 Okay I know this sounds crazy but before you dismiss me as a know-it-all millenial who's trying to be provocative and get some buzz, bare with me — there's a method to my madness.
