@@ -19,12 +19,12 @@ Go ahead and run the simulation and see what happens!
 <button onclick="start()">Run</button>
 <button onclick="stop()">Stop</button>
 <button onclick="init()">Reset</button>
-<label><input type="checkbox" onclick="toggleBankruptcy()"> Enable Bankruptcy</label>
+<label style="font-family: sans-serif; font-size: 16px;"><input type="checkbox" onclick="toggleBankruptcy()"> Enable Bankruptcy</label>
 
-<div id="visualization">
-</div>
+<div id="visualization"></div>
 
 <br>
+
 P.S. Tell me what you think about it on [twitter](https://twitter.com/intent/tweet?text=My thoughts on {{ page.title }} by @mikesoylu&url={{ site.url }}{{ page.url }}){:target="_blank"}!
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.6/svg.min.js"></script>

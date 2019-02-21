@@ -6,14 +6,12 @@
   <body>
     <main class="wrapper" aria-label="Content">
       <article class="post">
-        <h1 class="title">{{ page.title | escape }}</h1>
+        <span class="meta">
+          {%- assign date_format = "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </span>
 
-        <p class="meta">
-          <time datetime="{{ page.date | date_to_xmlschema }}">
-            {%- assign date_format = "%b %-d, %Y" -%}
-            {{ page.date | date: date_format }}
-          </time>
-        </p>
+        <h1 class="title">{{ page.title | escape }}</h1>
 
         <div class="content">
           {{ content }}
