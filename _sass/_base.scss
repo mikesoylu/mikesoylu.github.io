@@ -8,6 +8,25 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
+/**
+ * Responsive Embed
+ */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 
 
 /**
@@ -164,7 +183,7 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
+  @include relative-font-size(0.65);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
