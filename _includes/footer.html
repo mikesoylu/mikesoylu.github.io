@@ -1,8 +1,27 @@
 <footer class="wrapper">
   <p>
-    See what else I've been <a href="{{ "/" | relative_url }}">writing</a>,
-    <a href="https://twitter.com/mikesoylu" target="_blank">tweeting</a>,
-    <a href="https://github.com/mikesoylu" target="_blank">coding</a>
-    or <a href="https://www.linkedin.com/in/mikesoylu" target="_blank">working on</a>.
+    Did you enjoy this article? 
+
+    {% if page.previous.url %}
+      Check out the previous one <a href="{{page.previous.url}}">{{page.previous.teaser}}</a>.
+    {% endif %}
+
+    {% if page.next.url and page.previous.url %}
+      Or the next one 
+    {% elsif page.next.url %}
+      Check out the next one
+    {% endif %}
+
+    {% if page.next.url %}
+      <a href="{{page.next.url}}">{{page.next.teaser}}</a>.
+    {% endif %}
+
+    For a list of all articles, go to <a href="{{ "/" | relative_url }}">the homepage</a>.
+  </p>
+
+  <p>
+    Also, you can check out my <a href="https://twitter.com/mikesoylu" target="_blank">tweets</a>,
+    <a href="https://github.com/mikesoylu" target="_blank">code</a>
+    and <a href="https://www.linkedin.com/in/mikesoylu" target="_blank">work</a>.
   </p>
 </footer>

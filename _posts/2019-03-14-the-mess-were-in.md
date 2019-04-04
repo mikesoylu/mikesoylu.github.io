@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Mess We're In
-teaser: "The Mess We're In"
+teaser: "about the mess we're in"
 cta: And now for the tricky bit »
 excerpt_separator: <!--more-->
 ---

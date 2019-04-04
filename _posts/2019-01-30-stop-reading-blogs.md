@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stop Reading Blogs
-teaser: Stop Reading Blogs
+teaser: about my problem with blogs
 cta: Do this instead »
 ---
 

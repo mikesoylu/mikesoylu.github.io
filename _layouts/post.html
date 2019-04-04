@@ -17,16 +17,6 @@
           {{ content }}
         </div>
       </article>
-
-      <nav>
-        {% if page.previous.url %}
-          <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.teaser}}</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="next" href="{{page.next.url}}">{{page.next.teaser}} &raquo;</a>
-        {% endif %}
-      </nav>
-
     </main>
 
     {%- include footer.html -%}

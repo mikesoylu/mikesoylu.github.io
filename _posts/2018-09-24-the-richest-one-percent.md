@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Richest One Percent
-teaser: The Richest 1%
+teaser: about the richest one percent
 cta: See what happens »
 ---
 

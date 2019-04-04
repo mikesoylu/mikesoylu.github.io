@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Surprising Power Of Inversion
-teaser: Power Of Inversion
+teaser: on the power of inversion
 cta: How the greats approach hard problems »
 excerpt_separator: <!--more-->
 ---
