@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to Land a CS Job fresh out of College
-teaser: Landing a CS Job
+title: How To Land A CS Job Fresh Out Of College
+teaser: Landing A CS Job
 cta: My 3 tips for students »
 ---
 
