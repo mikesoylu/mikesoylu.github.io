@@ -12,16 +12,6 @@ We've built our everyday lives around devices that are composed of layers upon l
 
 <!--more-->
 
-```
-[ Layer 2381: "I hope they didn't fuck up down there" ]
-[ Layer 2380: "I hope they didn't fuck up down there" ]
-[ Layer 2379: "I hope they didn't fuck up down there" ]
- .
- .
- .
-[ Layer 1: "Boy, I hope I didn't fuck up" ]
-```
-
 This obviously can rapidly go wrong: it only takes one fuck-up until the whole thing is totally unreliable.
 
 The weakest link.
