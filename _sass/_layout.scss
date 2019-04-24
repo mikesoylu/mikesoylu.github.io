@@ -92,8 +92,13 @@ header {
 
 .post hr:after {
   content: "✼ ✻ ✼";
+  font-size: 14px;
   text-align: center;
   display: block;
   color: $brand-color;
+}
+
+::selection {
+    background: #fef4ad;
 }
 
