@@ -2,26 +2,30 @@
 layout: post
 title: Signaling
 teaser: about signaling
-cta: We hunt, we fish and we forage »
+cta: Here's why »
 excerpt_separator: <!--more-->
 ---
 
-We are all animals — in the quite literal sense.
+How do we define success?
 
-We're built with circuits in us that make us do things — sometimes useless — just to signal to others that we are _special_.
+Scientists observed[^1] that turtle hunting and spear fishing men in a Meriam community in Australia, experience greater social benefits and reproductive _success_ than shellfish foraging men.
 
 <!--more-->
 
-Scientists observed[^1] that turtle hunting and spear fishing men, in a Meriam community in Australia, experience greater social benefits and reproductive success than shellfish foraging men.
-
 Even though turtle hunting and spear fishing are actually less productive, measured by caloric gains per hour, than foraging for shellfish.
 
-Since a daily catch of fish is carried home by hand is clearly visible to everyone. And turtles are served at large feasts, members of the community know which men brought them turtle meat and fish.
+Then why are hunters more successful?
 
-Signaling strength and skill results in _evolutionary_ success.
+A daily catch of fish, carried home by hand, is clearly visible to everyone. And turtles are served at large feasts.
 
-But one wonders.
+Members of the community know which men brought them turtle meat and fish.
 
-What a world where we all just foraged for shellfish would be like.
+They know who has the strength and skill necessary to hunt and spear.
+
+_Signaling_ brings these men success — not _productivity_.
+
+But one wonders what the world would be like.
+
+If we all just foraged for shellfish instead.
 
 [^1]: Signalling theory, [Wikipedia](https://en.wikipedia.org/wiki/Signalling_theory){:target="_blank"}
