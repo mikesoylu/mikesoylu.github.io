@@ -98,6 +98,10 @@ header {
   color: $brand-color;
 }
 
+.post .footnotes {
+  margin-top: $spacing-unit * 2;
+}
+
 ::selection {
     background: #fef4ad;
 }
