@@ -28,4 +28,6 @@ But one wonders what the world would be like.
 
 If we all just foraged for shellfish instead.
 
+— Mike
+
 [^1]: Signalling theory, [Wikipedia](https://en.wikipedia.org/wiki/Signalling_theory){:target="_blank"}
