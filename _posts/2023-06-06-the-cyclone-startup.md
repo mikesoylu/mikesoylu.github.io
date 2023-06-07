@@ -5,7 +5,7 @@ teaser: propelling your startup towards a consistent monthly feature launch
 cta: The trifecta of shipping consistently »
 ---
 
-The "Cyclone" is an approach to product development, where three teams work in staggered phases. Where each team sequentially assumes responsibility for idea generation, product launch, and feature maintenance. Ensuring a new marketable product feature is launched every month. 
+The "Cyclone" is an approach to product development, where three teams work in staggered phases. Each team sequentially assumes responsibility for idea generation, product launch, and feature maintenance. Ensuring a new marketable product feature is launched every month. 
 
 ### What You'll Need
 
