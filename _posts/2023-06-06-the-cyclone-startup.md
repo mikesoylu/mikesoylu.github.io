@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Cyclone Startup
-teaser: propelling your startup towards a consistent monthly feature launch
+teaser: about propelling your startup towards a consistent monthly feature launch
 cta: The trifecta of shipping consistently »
 ---
 
