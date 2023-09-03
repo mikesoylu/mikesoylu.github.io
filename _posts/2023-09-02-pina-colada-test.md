@@ -15,3 +15,5 @@ Introducing the Pina Colada Test: a novel framework for evaluating AGI that impr
 The highest measure of AGI is its ability to create an environment where people can relax on the beach and enjoy **Pina Coladas** without a care in the world.
 
 ![Humans enjoying themselves in a post-pina colada society](/assets/soggy-dollar-bar.webp)
+
+*A pina colada is all you need.*
